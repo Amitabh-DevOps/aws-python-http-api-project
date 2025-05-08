@@ -1,0 +1,26 @@
+# "org" ensures this Service is used with the correct Serverless Framework Access Key.
+org: amitabhdevops
+# "app" enables Serverless Framework Dashboard features and sharing them with other Services.
+app: aws-python-http-api-project
+# "service" is the name of this project. This will also be added to your AWS resource names.
+service: aws-python-http-api-project
+
+provider:
+  name: aws
+  runtime: python3.12
+  region: eu-west-1
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - httpApi:
+          path: /hello
+          method: get
+
+  bye:
+    handler: handler.bye
+    events:
+      - httpApi:
+          path: /bye
+          method: get
