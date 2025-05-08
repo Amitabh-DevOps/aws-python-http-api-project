@@ -109,7 +109,7 @@
             "Properties": {
               "Code": {
                 "S3Bucket": "serverless-framework-deployments-eu-west-1-bd236bdb-1669",
-                "S3Key": "serverless/aws-python-http-api-project/dev/1746689147667-2025-05-08T07:25:47.667Z/aws-python-http-api-project.zip"
+                "S3Key": "serverless/aws-python-http-api-project/dev/1746690019029-2025-05-08T07:40:19.029Z/aws-python-http-api-project.zip"
               },
               "Handler": "handler.hello",
               "Runtime": "python3.12",
@@ -132,7 +132,7 @@
             "Properties": {
               "Code": {
                 "S3Bucket": "serverless-framework-deployments-eu-west-1-bd236bdb-1669",
-                "S3Key": "serverless/aws-python-http-api-project/dev/1746689147667-2025-05-08T07:25:47.667Z/aws-python-http-api-project.zip"
+                "S3Key": "serverless/aws-python-http-api-project/dev/1746690019029-2025-05-08T07:40:19.029Z/aws-python-http-api-project.zip"
               },
               "Handler": "handler.bye",
               "Runtime": "python3.12",
@@ -459,10 +459,10 @@
     "org": "amitabhdevops",
     "orgId": null,
     "layers": {},
-    "artifact": "/home/ubuntu/aws-python-http-api-project/.serverless/aws-python-http-api-project.zip"
+    "artifact": "/home/ubuntu/aws-serverless-project/aws-python-http-api-project/.serverless/aws-python-http-api-project.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/aws-python-http-api-project/dev/1746689147667-2025-05-08T07:25:47.667Z",
+    "artifactDirectoryName": "serverless/aws-python-http-api-project/dev/1746690019029-2025-05-08T07:40:19.029Z",
     "artifact": "aws-python-http-api-project.zip"
   }
 }

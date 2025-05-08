@@ -1,7 +1,7 @@
 {
-  "/home/ubuntu/aws-python-http-api-project/serverless.yml": {
+  "/home/ubuntu/aws-serverless-project/aws-python-http-api-project/serverless.yml": {
     "versionFramework": "4.14.3",
-    "servicePath": "/home/ubuntu/aws-python-http-api-project/serverless.yml",
+    "servicePath": "/home/ubuntu/aws-serverless-project/aws-python-http-api-project/serverless.yml",
     "serviceConfigFileName": "serverless.yml",
     "service": {
       "org": "amitabhdevops",
@@ -112,7 +112,7 @@
               "Properties": {
                 "Code": {
                   "S3Bucket": "serverless-framework-deployments-eu-west-1-bd236bdb-1669",
-                  "S3Key": "serverless/aws-python-http-api-project/dev/1746689147667-2025-05-08T07:25:47.667Z/aws-python-http-api-project.zip"
+                  "S3Key": "serverless/aws-python-http-api-project/dev/1746690019029-2025-05-08T07:40:19.029Z/aws-python-http-api-project.zip"
                 },
                 "Handler": "handler.hello",
                 "Runtime": "python3.12",
@@ -135,7 +135,7 @@
               "Properties": {
                 "Code": {
                   "S3Bucket": "serverless-framework-deployments-eu-west-1-bd236bdb-1669",
-                  "S3Key": "serverless/aws-python-http-api-project/dev/1746689147667-2025-05-08T07:25:47.667Z/aws-python-http-api-project.zip"
+                  "S3Key": "serverless/aws-python-http-api-project/dev/1746690019029-2025-05-08T07:40:19.029Z/aws-python-http-api-project.zip"
                 },
                 "Handler": "handler.bye",
                 "Runtime": "python3.12",
@@ -555,7 +555,7 @@
             "Properties": {
               "Code": {
                 "S3Bucket": "serverless-framework-deployments-eu-west-1-bd236bdb-1669",
-                "S3Key": "serverless/aws-python-http-api-project/dev/1746689147667-2025-05-08T07:25:47.667Z/aws-python-http-api-project.zip"
+                "S3Key": "serverless/aws-python-http-api-project/dev/1746690019029-2025-05-08T07:40:19.029Z/aws-python-http-api-project.zip"
               },
               "Handler": "handler.hello",
               "Runtime": "python3.12",
@@ -578,7 +578,7 @@
             "Properties": {
               "Code": {
                 "S3Bucket": "serverless-framework-deployments-eu-west-1-bd236bdb-1669",
-                "S3Key": "serverless/aws-python-http-api-project/dev/1746689147667-2025-05-08T07:25:47.667Z/aws-python-http-api-project.zip"
+                "S3Key": "serverless/aws-python-http-api-project/dev/1746690019029-2025-05-08T07:40:19.029Z/aws-python-http-api-project.zip"
               },
               "Handler": "handler.bye",
               "Runtime": "python3.12",
@@ -888,12 +888,18 @@
     "serviceProviderAwsCfStackName": "aws-python-http-api-project-dev",
     "serviceProviderAwsCfStackId": "arn:aws:cloudformation:eu-west-1:851725581476:stack/aws-python-http-api-project-dev/e8f17140-2bce-11f0-a018-0ae3c57e3831",
     "serviceProviderAwsCfStackCreated": "2025-05-08T05:40:12.297Z",
-    "serviceProviderAwsCfStackUpdated": "2025-05-08T05:53:27.165Z",
+    "serviceProviderAwsCfStackUpdated": "2025-05-08T07:25:48.805Z",
     "serviceProviderAwsCfStackStatus": "UPDATE_COMPLETE",
     "serviceProviderAwsCfStackOutputs": [
       {
+        "OutputKey": "ByeLambdaFunctionQualifiedArn",
+        "OutputValue": "arn:aws:lambda:eu-west-1:851725581476:function:aws-python-http-api-project-dev-bye:1",
+        "Description": "Current Lambda function version",
+        "ExportName": "sls-aws-python-http-api-project-dev-ByeLambdaFunctionQualifiedArn"
+      },
+      {
         "OutputKey": "HelloLambdaFunctionQualifiedArn",
-        "OutputValue": "arn:aws:lambda:eu-west-1:851725581476:function:aws-python-http-api-project-dev-hello:2",
+        "OutputValue": "arn:aws:lambda:eu-west-1:851725581476:function:aws-python-http-api-project-dev-hello:3",
         "Description": "Current Lambda function version",
         "ExportName": "sls-aws-python-http-api-project-dev-HelloLambdaFunctionQualifiedArn"
       },
@@ -1014,7 +1020,7 @@
           "Properties": {
             "Code": {
               "S3Bucket": "serverless-framework-deployments-eu-west-1-bd236bdb-1669",
-              "S3Key": "serverless/aws-python-http-api-project/dev/1746689147667-2025-05-08T07:25:47.667Z/aws-python-http-api-project.zip"
+              "S3Key": "serverless/aws-python-http-api-project/dev/1746690019029-2025-05-08T07:40:19.029Z/aws-python-http-api-project.zip"
             },
             "Handler": "handler.hello",
             "Runtime": "python3.12",
@@ -1037,7 +1043,7 @@
           "Properties": {
             "Code": {
               "S3Bucket": "serverless-framework-deployments-eu-west-1-bd236bdb-1669",
-              "S3Key": "serverless/aws-python-http-api-project/dev/1746689147667-2025-05-08T07:25:47.667Z/aws-python-http-api-project.zip"
+              "S3Key": "serverless/aws-python-http-api-project/dev/1746690019029-2025-05-08T07:40:19.029Z/aws-python-http-api-project.zip"
             },
             "Handler": "handler.bye",
             "Runtime": "python3.12",

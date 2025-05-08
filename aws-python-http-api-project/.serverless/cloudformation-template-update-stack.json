@@ -97,7 +97,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "serverless-framework-deployments-eu-west-1-bd236bdb-1669",
-          "S3Key": "serverless/aws-python-http-api-project/dev/1746689147667-2025-05-08T07:25:47.667Z/aws-python-http-api-project.zip"
+          "S3Key": "serverless/aws-python-http-api-project/dev/1746690019029-2025-05-08T07:40:19.029Z/aws-python-http-api-project.zip"
         },
         "Handler": "handler.hello",
         "Runtime": "python3.12",
@@ -120,7 +120,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "serverless-framework-deployments-eu-west-1-bd236bdb-1669",
-          "S3Key": "serverless/aws-python-http-api-project/dev/1746689147667-2025-05-08T07:25:47.667Z/aws-python-http-api-project.zip"
+          "S3Key": "serverless/aws-python-http-api-project/dev/1746690019029-2025-05-08T07:40:19.029Z/aws-python-http-api-project.zip"
         },
         "Handler": "handler.bye",
         "Runtime": "python3.12",
